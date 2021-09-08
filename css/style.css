@@ -1,0 +1,23 @@
+.efectoimg:hover{
+filter: opacity(50%);
+transition: 400ms;
+}
+
+@media all and (max-width: 576px){
+    .img-responsive{
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .centrar{
+        text-align: center;
+    }
+}
+
+
+footer{
+    background: rgba(20, 19, 19, 0.733);
+    color: white;
+    padding: 35px;
+}
+
